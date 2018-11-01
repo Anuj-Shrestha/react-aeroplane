@@ -33,3 +33,35 @@
 .content {
     padding: 16px;
 }
+.topic-main {
+    transition: 3000ms;
+    background-color: salmon;
+    width: fit-content;
+}
+
+.topic-container {
+    transition: 300ms;
+    width: 400px;
+    height: 400px;
+    background-color: salmon;
+}
+
+.topic-container-3 {
+    transition: 300ms;
+    width: 400px;
+    height: 400px;
+    background-color: burlywood;
+}
+
+.topic-container-2 {
+    transition: 300ms;
+    width: 800px;
+    height: 600px;
+    background-color: slategray;
+}
+
+.topic-container-1 {
+    transition: 300ms;
+    width: 400px;
+    height: 800px;
+}

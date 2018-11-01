@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 import About from './components/About';
 import Header from './components/Header';
+import Topics from './components/Topics';
 
 const App = () => {
   return (
@@ -35,7 +36,7 @@ const App = () => {
 const Home = () => {
   return (
     <div className="content">
-      <p>This is home page</p>
+      <p>This is home page. Checkout about and topics</p>
     </div>
   );
 }
@@ -48,13 +49,13 @@ const Home = () => {
 //   );
 // }
 
-const Topics = () => {
-  return (
-    <div className="content">
-      <p>This is topics page</p>
-    </div>
-  );
-}
+// const Topics = () => {
+//   return (
+//     <div className="content">
+//       <p>This is topics page</p>
+//     </div>
+//   );
+// }
 
 
 
