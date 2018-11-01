@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    margin: 16px 64px
+}
+.nav-bar {
+
+}
+
+.nav-bar ul.nav-bar-ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.nav-bar ul li.nav-bar-li {
+    float: left;
+}
+
+.nav-bar ul .nav-bar-link {
+    display: block;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+.content {
+    padding: 16px;
+}
