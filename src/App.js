@@ -4,6 +4,8 @@ import './App.css';
 
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
+import About from './components/About';
+import Header from './components/Header';
 
 const App = () => {
   return (
@@ -18,17 +20,17 @@ const App = () => {
   );
 }
 
-const Header = () => {
-  return (
-    <div className="nav-bar">
-      <ul className="nav-bar-ul">
-        <li className="nav-bar-li"><Link to='/' className="nav-bar-link">Home</Link></li>
-        <li className="nav-bar-li"><Link to='/about' className="nav-bar-link">About</Link></li>
-        <li className="nav-bar-li"><Link to='/topics' className="nav-bar-link">Topics</Link></li>
-      </ul>
-    </div>
-  );
-}
+// const Header = () => {
+//   return (
+//     <div className="nav-bar">
+//       <ul className="nav-bar-ul">
+//         <li className="nav-bar-li"><Link to='/' className="nav-bar-link">Home</Link></li>
+//         <li className="nav-bar-li"><Link to='/about' className="nav-bar-link">About</Link></li>
+//         <li className="nav-bar-li"><Link to='/topics' className="nav-bar-link">Topics</Link></li>
+//       </ul>
+//     </div>
+//   );
+// }
 
 const Home = () => {
   return (
@@ -38,13 +40,13 @@ const Home = () => {
   );
 }
 
-const About = () => {
-  return (
-    <div className="content">
-      <p>This is About page</p>
-    </div>
-  );
-}
+// const About = () => {
+//   return (
+//     <div className="content">
+//       <p>This is About page</p>
+//     </div>
+//   );
+// }
 
 const Topics = () => {
   return (

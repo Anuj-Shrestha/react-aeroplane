@@ -6,10 +6,16 @@
 .main-container {
     margin: 16px 64px
 }
+
+.frame-container {
+    position: relative
+}
 .nav-bar {
 
 }
-
+.nav-bar-hidden{
+    top: -200px;
+}
 .nav-bar ul.nav-bar-ul {
     list-style-type: none;
     overflow: hidden;
