@@ -61,7 +61,66 @@
 }
 
 .topic-container-1 {
-    transition: 300ms;
+    transition: 400ms;
     width: 400px;
     height: 800px;
+}
+
+.modal-bg {
+    transition: opacity 300ms;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: -1000px;
+    background-color: rgb(0,0,0,.8);
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal {
+    transition: 300ms;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: -1000px;
+    margin: auto;
+    width: 80vw;
+    background: aliceblue;
+    opacity: 1;
+    z-index: 10;
+}
+
+.show-modal {
+    /* width: 100vw;
+    height: 100vh; */
+    top: 0;
+    bottom: 000px;
+
+    height: 80vh;
+}
+.show-modal-bg {
+    /* width: 100vw;
+    height: 100vh; */
+    top: 0;
+    bottom: 000px;
+
+}
+.hide-modal {
+    /* width: 00vw;
+    height: 00vh; */
+    opacity: 0;
+    height: 0vh;
+
+}
+
+.hide-modal-bg {
+    /* width: 00vw;
+    height: 00vh; */
+    opacity: 0;
+}
+.display-none {
+    display: none;
+}
+.display-block {
+    display: block;
 }
